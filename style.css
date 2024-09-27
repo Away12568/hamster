@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#coin{
+ border-radius: 100%;
+ background-color: #fff;
+transition: 0.3;
+ &:active{
+
+    scale: 1.02;
+ }
+}
+.game{
+    gap: 10px;
+    background-color: #039b91;
+    padding: 20px;
+    border-radius: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+body{
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+
+}
+#buyUpgrade{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: gold;
+    border: none;
+    box-shadow: 4px 9px 51px 10px gold;
+}
+#buyBust{
+    /* margin-top: 20px; */
+    padding: 15px;
+    border-radius: 15px;
+    background-color: gold;
+    border: none;
+    box-shadow: 4px 9px 51px 10px gold;
+}
